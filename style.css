@@ -1,0 +1,54 @@
+body {
+    background-color: #2c3a47;
+}
+
+#container {
+    position: relative;
+}
+
+#ball {
+    width: 20px;
+    height: 20px;
+    background-color: #e84118;
+    position: fixed;
+    top: 25px;
+    left: 50%;
+    border-radius: 50%;
+}
+
+#rod1,
+#rod2 {
+    width: 200px;
+    height: 24px;
+    position: fixed;
+    left: 43%;
+    border-radius: 25px;
+    text-align: center;
+    color: #ecf0f1;
+    font-size: 1.1rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#rod1 {
+    background-color: #58b19f;
+    top: 0px;
+}
+
+#rod2 {
+    background-color: #8c7ae6;
+    bottom: 0px;
+}
+
+#message {
+    color: #ccc5b9;
+    font-size: 2rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
